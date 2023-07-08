@@ -1,0 +1,51 @@
+ul li.complete {
+     text-decoration: line-through;
+   }
+
+.add-btn{
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+}   
+
+.input-add{
+  width: 100%;
+}
+
+
+.div-btn-add{
+  display: flex;
+  height: 36px;
+  width: 120px;
+
+}
+
+.list-items{
+ 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+
+.li-deco{
+  position: relative;
+  width: 700px;
+  font-size: 20px;
+  font-weight: 700;
+  left: 20px;
+  top: 7px;
+  text-transform:capitalize;
+  height: 40px;
+  
+}
+
+.dlte-deco{
+  font-size: 50px;
+
+}
+
+.btn-delete{
+  background-color: red;
+}
+
